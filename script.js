@@ -1,4 +1,5 @@
 // Gathering HTML elements for manipulation
+// a mad amount of globe vars
 var quizBody = document.getElementById("quiz");
 var resultsEl = document.getElementById("result");
 var finalScoreEl = document.getElementById("finalScore");
@@ -20,6 +21,7 @@ var buttonC = document.getElementById("c");
 var buttonD = document.getElementById("d");
 
 // Quiz question object
+// questions with right anwser
 var quizQuestions = [{
     question: "How many elements can you apply an 'ID' attribute to?",
     choiceA: "As many as you want",
@@ -72,7 +74,7 @@ var quizQuestions = [{
         
     
     ];
-// Other global variables
+// more! global variables
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
 var timeLeft = 76;
