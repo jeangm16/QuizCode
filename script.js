@@ -21,7 +21,7 @@ var buttonC = document.getElementById("c");
 var buttonD = document.getElementById("d");
 
 // Quiz question object
-// questions with right anwser
+// questions with right answer
 var quizQuestions = [{
     question: "How many elements can you apply an 'ID' attribute to?",
     choiceA: "As many as you want",
@@ -114,7 +114,7 @@ function startQuiz(){
       }, 1000);
     quizBody.style.display = "block";
 }
-// This function is the end page screen that displays your score after either completeing the quiz or upon timer run out
+// This function is the end page screen that displays your score after either completing the quiz or upon timer run out
 function showScore(){
     quizBody.style.display = "none"
     gameoverDiv.style.display = "flex";
